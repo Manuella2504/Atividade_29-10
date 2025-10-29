@@ -1,0 +1,20 @@
+{
+  "name": "calculadora-testes",
+  "version": "1.0.0",
+  "description": "Sistema de calculadora com testes automatizados",
+  "main": "calculadora.js",
+  "scripts": {
+    "test": "jest --coverage",
+    "test:watch": "jest --watch"
+  },
+  "keywords": [
+    "calculadora",
+    "testes",
+    "jest"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
