@@ -1,20 +1,23 @@
 {
-  "name": "calculadora-testes",
+  "name": "atividade_29-10",
   "version": "1.0.0",
-  "description": "Sistema de calculadora com testes automatizados",
+  "description": "Sistema de calculadora em JavaScript com testes unitários automatizados usando Jest e CI/CD com GitHub Actions.",
   "main": "calculadora.js",
   "scripts": {
-    "test": "jest --coverage",
-    "test:watch": "jest --watch"
+    "test": "jest"
   },
-  "keywords": [
-    "calculadora",
-    "testes",
-    "jest"
-  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Manuella2504/Atividade_29-10.git"
+  },
+  "keywords": [],
   "author": "",
-  "license": "MIT",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Manuella2504/Atividade_29-10/issues"
+  },
+  "homepage": "https://github.com/Manuella2504/Atividade_29-10#readme",
   "devDependencies": {
-    "jest": "^29.7.0"
+    "jest": "^30.2.0"
   }
 }
